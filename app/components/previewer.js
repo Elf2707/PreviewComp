@@ -7,8 +7,9 @@ import {StyleSheet,
     Text,
     TextInput,
     TouchableOpacity,
-    WebView,
-    ToastAndroid } from 'react-native';
+    ToastAndroid,
+    Image } from 'react-native';
+import ogp from '../services/open-graph-scraper';
 
 export default class Previewer extends Component {
     constructor(props) {
@@ -20,7 +21,7 @@ export default class Previewer extends Component {
     }
 
     render() {
-        const { link, fetchPage } = this.props;
+        const { preview, fetchPage } = this.props;
 
         return (
             <View style={styles.container}>
@@ -28,37 +29,62 @@ export default class Previewer extends Component {
                 <TextInput
                     style={styles.urlInput}
                     onChangeText={(url) => this.setState({url: url })}
-                    placeholder="Enter url www.sport.ru or www.youtube.com"/>
+                    placeholder="Please enter url"/>
 
                 <TouchableOpacity style={styles.button} onPress={()=>
                                             this._handleFetchPage(this.state.url, fetchPage)}>
                     <Text>Fetch Page</Text>
                 </TouchableOpacity>
 
-                <Text>{link}</Text>
-                <WebView style={styles.webView} source={{uri: link}}
-                         startInLoadingState={false}
-                         scalesPageToFit={true}
-                         scrollEnabled={false} />
+                <View style={styles.preview}>
+                    <Text>{preview.data ? preview.data.ogType : ''}</Text>
+                    <Text>{preview.data ? preview.data.ogSiteName : ''}</Text>
+                    <Image style={styles.base}
+                           resizeMode='contain'
+                        source={{uri: preview.data ?
+                        this._normalizeImageUrl(preview.data.ogImage.url):null}} />
+                    <Text>{preview.data ? preview.data.ogTitle : ''}</Text>
+                    <Text>{preview.data ? preview.data.ogDescription : ''}</Text>
+                </View>
             </View>
         );
     }
 
+    _normalizeImageUrl(url){
+        if (!url.match(/^[a-zA-Z]+:\/\//)) {
+            url = 'http://' + url;
+        }
+
+        return url;
+    }
+
     _handleFetchPage(newLink, fatchAction) {
-        if (/^www.sport.ru$/.test(newLink) || /^www.youtube.com$/.test(newLink)) {
+        if (newLink) {
             //Good link add http if it needs
             if (!newLink.match(/^[a-zA-Z]+:\/\//)) {
                 newLink = 'http://' + newLink;
             }
-            fatchAction(newLink);
+
+            ogp({url: newLink}, (err, data) => {
+                if (err) {
+                    console.log('Error while receiving data' + err);
+                    return;
+                }
+
+                fatchAction(data);
+            });
         } else {
-            ToastAndroid.show('Wrong address only www.sport.ru and www.youtube.com are allowed',
+            ToastAndroid.show('Wrong address',
                 ToastAndroid.LONG);
         }
     }
 }
 
 const styles = StyleSheet.create({
+    base: {
+        width: 50,
+        height: 50,
+    },
     container: {
         height: 400,
         borderColor: 'grey',
@@ -72,7 +98,7 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         padding: 10
     },
-    webView: {
+    preview: {
         width: 300,
         height: 200,
         flex: 4,

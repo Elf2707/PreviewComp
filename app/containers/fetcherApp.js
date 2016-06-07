@@ -19,7 +19,7 @@ class FetcherApp extends Component {
 
         return (
             <Previewer
-                link={state.link}
+                preview={state.preview}
                 {...actions}/>
         );
     }

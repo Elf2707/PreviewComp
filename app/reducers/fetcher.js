@@ -4,7 +4,7 @@
 import * as types from '../constants/actionsType';
 
 const initialState = {
-    link: 'Hello'
+    preview: {}
 };
 
 export default function fetcher(state = initialState, action = {}) {
@@ -12,7 +12,7 @@ export default function fetcher(state = initialState, action = {}) {
         case types.FETCH_PAGE:
             return {
                 ...state,
-                link: action.link
+                preview: action.preview
             }
 
         default:

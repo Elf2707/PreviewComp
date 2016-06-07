@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      "open-graph-scraper@^2.1.0",
+      "G:\\ReactNative\\PreviewComp"
+    ]
+  ],
+  "_from": "open-graph-scraper@>=2.1.0 <3.0.0",
+  "_id": "open-graph-scraper@2.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/open-graph-scraper",
+  "_nodeVersion": "5.8.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/open-graph-scraper-2.1.0.tgz_1463947789185_0.300635285442695"
+  },
+  "_npmUser": {
+    "email": "jshemas1@gmail.com",
+    "name": "jshemas"
+  },
+  "_npmVersion": "3.7.3",
+  "_phantomChildren": {
+    "boolbase": "1.0.0",
+    "dom-serializer": "0.1.0",
+    "domelementtype": "1.3.0",
+    "entities": "1.1.1",
+    "htmlparser2": "3.8.3",
+    "jsdom": "7.2.2",
+    "nth-check": "1.0.1"
+  },
+  "_requested": {
+    "name": "open-graph-scraper",
+    "raw": "open-graph-scraper@^2.1.0",
+    "rawSpec": "^2.1.0",
+    "scope": null,
+    "spec": ">=2.1.0 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/open-graph-scraper/-/open-graph-scraper-2.1.0.tgz",
+  "_shasum": "4ae6b84028527a8aa4241c3d9109526a0a406d08",
+  "_shrinkwrap": null,
+  "_spec": "open-graph-scraper@^2.1.0",
+  "_where": "G:\\ReactNative\\PreviewComp",
+  "author": {
+    "email": "jshemas1@gmail.com",
+    "name": "Josh Shemas",
+    "url": "https://github.com/jshemas"
+  },
+  "bugs": {
+    "url": "https://github.com/jshemas/openGraphScraper/issues"
+  },
+  "dependencies": {
+    "cheerio": "0.20.0",
+    "lodash": "4.2.1",
+    "request": "2.69.0"
+  },
+  "description": "Node.js scraper service for Open Graph info",
+  "devDependencies": {
+    "expect.js": "0.3.1",
+    "mocha": "2.4.5"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "4ae6b84028527a8aa4241c3d9109526a0a406d08",
+    "tarball": "https://registry.npmjs.org/open-graph-scraper/-/open-graph-scraper-2.1.0.tgz"
+  },
+  "gitHead": "9939267472bf4165b4c20b6ff9590c8ccdc0e54f",
+  "homepage": "https://github.com/jshemas/openGraphScraper",
+  "keywords": [
+    "open graph",
+    "scraper",
+    "open",
+    "graph",
+    "opengraph",
+    "og",
+    "twitter",
+    "twitter card"
+  ],
+  "license": "MIT",
+  "main": "app.js",
+  "maintainers": [
+    {
+      "email": "jshemas1@gmail.com",
+      "name": "jshemas"
+    }
+  ],
+  "name": "open-graph-scraper",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jshemas/openGraphScraper.git",
+    "web": "http://github.com/jshemas/openGraphScraper"
+  },
+  "scripts": {},
+  "version": "2.1.0"
+}

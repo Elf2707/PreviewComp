@@ -3,9 +3,9 @@
  */
 import * as types from '../constants/actionsType';
 
-export function fetchPage(newLink = ''){
+export function fetchPage(preview = {}){
     return {
         type: types.FETCH_PAGE,
-        link: newLink
+        preview: preview
     };
 }
