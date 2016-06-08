@@ -3,9 +3,9 @@
  */
 import * as types from '../constants/actionsType';
 
-export function fetchPage(preview = {}){
+export function addPagePreview(preview = {}){
     return {
-        type: types.FETCH_PAGE,
+        type: types.ADD_PAGE_PREVIEW,
         preview: preview
     };
 }

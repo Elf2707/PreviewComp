@@ -9,7 +9,6 @@
     "EventEmitter": "^1.0.0",
     "babel-plugin-transform-export-extensions": "^6.8.0",
     "lodash": "^4.13.1",
-    "open-graph-scraper": "^2.1.0",
     "react": "15.0.2",
     "react-native": "^0.26.3",
     "react-native-redux-router": "^1.0.7",

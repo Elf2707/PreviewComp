@@ -1,12 +1,6 @@
 var cheerio = require('./src/cheerio'),
     _ = require('lodash');
 
-module.exports = function (options, callback) {
-    exports.getInfo(options, function (err, results) {
-        callback(err, results);
-    });
-};
-
 var fieldsArray = [
     {
         multiple: false,
@@ -301,58 +295,59 @@ var mediaSorter = function (a, b) {
  * @param string url - user input of url
  * @param function callback
  */
-exports.getInfo = function (options, callback) {
-    var error = false,
-        returnResult = {},
-        that = this;
-    this.validateVars(options.url, function (inputUrl) {
-        if (inputUrl) {
-            let requestOptions = {
-                headers: {
-                    'user-agent': 'rn-fetch',
-                    'content-type': 'text/html',
-                    'content-encoding': 'gzip'
-                },
-                credentials: 'omit',
-                method: 'GET'
-            }
+var getInfo = function (options, callback) {
+    var error = false;
+    let returnResult = {};
+    let inputUrl = validateVars(options.url);
 
-            that.getOG(inputUrl, requestOptions, function (err, results) {
-                if (results) {
+    if (inputUrl) {
+        let requestOptions = {
+            headers: {
+                'Accept': 'text/html',
+                'User-Agent': 'rn-fetch',
+                'Content-Type': 'text/html',
+                'Content-Encoding': 'gzip'
+            },
+            credentials: 'omit',
+            method: 'GET',
+            redirect: 'manual'
+        }
+
+        getOG(inputUrl, requestOptions, function (err, results) {
+            if (results) {
+                returnResult = {
+                    data: results,
+                    success: true
+                };
+            } else {
+                if (err && (err.code === 'ENOTFOUND' || err.code === 'EHOSTUNREACH')) {
+                    error = true;
                     returnResult = {
-                        data: results,
-                        success: true
+                        err: 'Page Not Found',
+                        success: false
+                    };
+                } else if (err && err.code === 'ETIMEDOUT') {
+                    error = true;
+                    returnResult = {
+                        err: 'Time Out',
+                        success: false
                     };
                 } else {
-                    if (err && (err.code === 'ENOTFOUND' || err.code === 'EHOSTUNREACH')) {
-                        error = true;
-                        returnResult = {
-                            err: 'Page Not Found',
-                            success: false
-                        };
-                    } else if (err && err.code === 'ETIMEDOUT') {
-                        error = true;
-                        returnResult = {
-                            err: 'Time Out',
-                            success: false
-                        };
-                    } else {
-                        error = true;
-                        returnResult = {
-                            err: 'Page Not Found',
-                            success: false
-                        };
-                    }
+                    error = true;
+                    returnResult = {
+                        err: 'Page Not Found',
+                        success: false
+                    };
                 }
-                callback(error, returnResult);
-            });
-        } else {
-            callback(true, {
-                success: false,
-                err: 'Invalid URL'
-            });
-        }
-    });
+            }
+            callback(error, returnResult);
+        });
+    } else {
+        callback(true, {
+            success: false,
+            err: 'Invalid URL'
+        });
+    }
 };
 
 /*
@@ -360,14 +355,14 @@ exports.getInfo = function (options, callback) {
  * @param string var - user input
  * @param function callback
  */
-exports.validateVars = function (inputUrl, callback) {
+var validateVars = function (inputUrl) {
     var returnInputUrl = null;
 
     if (!(inputUrl === null || typeof inputUrl === 'undefined' || !inputUrl || inputUrl.length < 1)) {
-        returnInputUrl = this.validateUrl(inputUrl);
+        returnInputUrl = validateUrl(inputUrl);
     }
 
-    callback(returnInputUrl);
+    return returnInputUrl;
 };
 
 /*
@@ -375,10 +370,11 @@ exports.validateVars = function (inputUrl, callback) {
  * @param string var - the url we want to scrape
  * @param function callback
  */
-exports.validateUrl = function (inputUrl) {
+var validateUrl = function (inputUrl) {
     if (!/^(f|ht)tps?:\/\//i.test(inputUrl)) {
         inputUrl = 'http://' + inputUrl;
     }
+
     return inputUrl;
 };
 
@@ -387,12 +383,13 @@ exports.validateUrl = function (inputUrl) {
  * @param string url - the url we want to scrape
  * @param function callback
  */
-exports.getOG = function (url, options, callback) {
+var getOG = function (url, options, callback) {
     fetch(url, options)
         .then((response) => {
             if (response && response.statusCode && (response.statusCode.toString().substring(0, 1) === '4' || response.statusCode.toString().substring(0, 1) === '5')) {
                 callback(new Error('Error from server'), null);
             }
+
             return response.text();
         })
         .then((body) => {
@@ -492,9 +489,11 @@ exports.getOG = function (url, options, callback) {
             }
 
             //console.log('ogObject',ogObject);
-            callback(null, ogObject);
+            callback(false, ogObject);
         })
         .catch((error) => {
             callback(error)
         });
 };
+
+module.exports = getInfo;

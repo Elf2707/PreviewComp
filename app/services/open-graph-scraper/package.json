@@ -55,8 +55,7 @@
   },
   "dependencies": {
     "cheerio": "0.20.0",
-    "lodash": "4.2.1",
-    "request": "2.69.0"
+    "lodash": "4.2.1"
   },
   "description": "Node.js scraper service for Open Graph info",
   "devDependencies": {

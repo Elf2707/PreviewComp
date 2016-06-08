@@ -9,7 +9,7 @@ import {Router, Route, Schema, Animations} from 'react-native-redux-router';
 import thunk from 'redux-thunk';
 
 import * as reducers from '../reducers';
-import FetcherApp from './fetcherApp';
+import PreviewListWraper from './previewListWraper';
 
 const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
 const reducer = combineReducers(reducers);
@@ -26,7 +26,7 @@ export default class App extends Component {
                         sceneConfig={Animations.FlatFloatFromBottom} />
                     <Route
                         name="launch"
-                        component={FetcherApp}
+                        component={PreviewListWraper}
                         initial={true}
                         title="Page previewer"/>
                 </Router>

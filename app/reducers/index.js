@@ -1,8 +1,8 @@
 /**
  * Created by Elf on 06.06.2016.
  */
-import fetcher from './fetcher';
+import previewReducer from './previewReducer';
 
 export {
-    fetcher
+    previewReducer
 };
