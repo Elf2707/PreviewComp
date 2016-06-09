@@ -63,15 +63,15 @@ const styles = StyleSheet.create({
         height: 400,
         borderColor: 'grey',
         borderWidth: 2,
-        borderRadius: 10,
         flex: 1,
-        justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#F5FCFF',
         alignSelf: 'flex-start',
+        flexWrap: 'wrap',
         flexDirection: 'column',
         padding: 10
     },
+
     button: {
         height: 36,
         backgroundColor: '#48BBEC',
@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
         alignSelf: 'stretch',
         justifyContent: 'center'
     },
+
     urlInput: {
         height: 36,
         padding: 4,
