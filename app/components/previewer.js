@@ -20,7 +20,6 @@ export default class Previewer extends Component {
     render() {
         const { preview } = this.props;
 
-        console.log(preview);
         return (
             <View style={styles.preview}>
                 <Text style={styles.mainUrl}>Url: {preview ? preview.url : ''}</Text>
@@ -58,7 +57,6 @@ export default class Previewer extends Component {
     //if it different return twitterImg url
     _testTwittAndOgImageDiffr(preview){
         if(!(preview && preview.data && preview.data.twitterImage)){
-            console.log('sssssssssssssssssssssssssssssssssssssss');
             return null;
         }
 
