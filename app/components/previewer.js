@@ -20,50 +20,58 @@ export default class Previewer extends Component {
     render() {
         const { preview } = this.props;
 
-        return (
-            <View style={styles.preview}>
-                <Text style={styles.mainUrl}>Url: {preview ? preview.url : ''}</Text>
-                <View style={styles.rowFlow}>
-                    <View>
-                        <Image style={styles.imageIcon}
-                               resizeMode='contain'
-                               source={{uri: preview ?
+        if (!this._isEmptyObject(preview)) {
+            return (
+                <View style={styles.preview}>
+                    <Text style={styles.mainUrl}>Url: {preview.url}</Text>
+                    <View style={styles.rowFlow}>
+                        <View>
+                            <Image style={styles.imageIcon}
+                                   resizeMode='contain'
+                                   source={{uri: preview.data && preview.data.ogImage ?
                         this._normalizeImageUrl(preview.data.ogImage.url):null}}/>
 
-                        <Image style={styles.imageIcon}
-                               resizeMode='contain'
-                               source={{uri: this._testTwittAndOgImageDiffr(preview)}}/>
-                    </View>
-                    <View style={styles.textContentBlock}>
+                            <Image style={styles.imageIcon}
+                                   resizeMode='contain'
+                                   source={{uri: this._testTwittAndOgImageDiffr(preview)}}/>
+                        </View>
+                        <View style={styles.textContentBlock}>
 
-                        <Text><Text style={styles.textHeader}>
-                            Content type: </Text>{preview ? preview.data.ogType : ''}</Text>
+                            <Text><Text style={styles.textHeader}>
+                                Content type: </Text>{preview ? preview.data.ogType : ''}</Text>
 
-                        <Text><Text style={styles.textHeader}>
-                            Site name: </Text>{preview ? preview.data.ogSiteName : ''}</Text>
+                            <Text><Text style={styles.textHeader}>
+                                Site name: </Text>{preview ? preview.data.ogSiteName : ''}</Text>
 
-                        <Text numberOfLines={3}><Text style={styles.textHeader}>
-                            Title: </Text>{preview ? preview.data.ogTitle : ''}</Text>
+                            <Text numberOfLines={3}><Text style={styles.textHeader}>
+                                Title: </Text>{preview ? preview.data.ogTitle : ''}</Text>
 
-                        <Text numberOfLines={6}><Text style={styles.textHeader}>
-                            Description: </Text>{preview ? preview.data.ogDescription : ''}</Text>
+                            <Text numberOfLines={6}><Text style={styles.textHeader}>
+                                Description: </Text>{preview ? preview.data.ogDescription : ''}</Text>
+                        </View>
                     </View>
                 </View>
-            </View>
-        );
+            );
+        } else {
+            return(
+                <View style={styles.preview}>
+                    <Text>{this.state.url}</Text>
+                </View>
+            )
+        }
     }
 
     //Test if twitter image same then do not show it return null
     //if it different return twitterImg url
-    _testTwittAndOgImageDiffr(preview){
-        if(!(preview && preview.data && preview.data.twitterImage)){
+    _testTwittAndOgImageDiffr(preview) {
+        if (!(preview && preview.data && preview.data.twitterImage)) {
             return null;
         }
 
         let twittImgUrl = this._normalizeImageUrl(preview.data.twitterImage.url);
         let ogImgUrl = this._normalizeImageUrl(preview.data.ogImage.url)
 
-        if( twittImgUrl === ogImgUrl) {
+        if (twittImgUrl === ogImgUrl) {
             return null;
         }
 
@@ -76,6 +84,14 @@ export default class Previewer extends Component {
         }
 
         return url;
+    }
+
+    _isEmptyObject = function( obj ) {
+        var name;
+        for ( name in obj ) {
+            return false;
+        }
+        return true;
     }
 }
 

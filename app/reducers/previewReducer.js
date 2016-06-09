@@ -4,15 +4,15 @@
 import * as types from '../constants/actionsType';
 
 const initialState = {
-    previewList:[]
+    urlList:[]
 };
 
 export default function previewReducer(state = initialState, action = {}) {
     switch (action.type){
-        case types.ADD_PAGE_PREVIEW:
+        case types.ADD_URL_TO_MAKE_PREVIEW:
             return Object.assign({}, state, {
-                previewList: [
-                    ...state.previewList, action.preview
+                urlList: [
+                    ...state.urlList, action.url
                 ]
             });
 

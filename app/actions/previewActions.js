@@ -3,9 +3,9 @@
  */
 import * as types from '../constants/actionsType';
 
-export function addPagePreview(preview = {}){
+export function addUrlToPreviewAction(url = ''){
     return {
-        type: types.ADD_PAGE_PREVIEW,
-        preview: preview
-    };
+        type: types.ADD_URL_TO_MAKE_PREVIEW,
+         url: url
+    }
 }

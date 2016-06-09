@@ -9,55 +9,27 @@ import {connect} from 'react-redux';
 import * as actions from '../actions/previewActions';
 import PreviewList from '../components/previewList';
 import * as previewActions from '../actions/previewActions';
-import ogp from '../services/open-graph-scraper';
 
 class PreviewListWraper extends Component {
     constructor(props) {
         super(props);
     }
 
-    handleAddPagePreview(newLink) {
-        if (newLink) {
-            //Good link add http if it needs
-            if (!newLink.match(/^[a-zA-Z]+:\/\//)) {
-                newLink = 'http://' + newLink;
-            }
-
-            ogp({url: newLink}, (err, data) => {
-                if (err) {
-                    console.log('Error while receiving data' + err);
-                    ToastAndroid.show('Error while connecting to url', ToastAndroid.LONG);
-                    return;
-                }
-
-                //add url and id fields
-                data.url = newLink;
-                data.id = Date.now();
-
-                //add preview to the list
-                this.props.actions.addPagePreview(data);
-            });
-        } else {
-            ToastAndroid.show('Wrong address',
-                ToastAndroid.LONG);
-        }
-    }
-
     render() {
-        const {previewList} = this.props;
+        const {urlList, actions} = this.props;
 
         return (
             <PreviewList
-                previews={previewList}
-                onAddPagePreview={this.handleAddPagePreview.bind(this)} />
+                urls={urlList}
+                onAddUrlToPreview={actions.addUrlToPreviewAction} />
         );
     }
 }
 
 mapStateToProps = (state)=> {
-    const {previewList} = state.previewReducer
+    const {urlList} = state.previewReducer
 
-    return { previewList: previewList};
+    return { urlList: urlList};
 }
 
 //Subscribe on state change actions

@@ -16,17 +16,16 @@ export default class PreviewList extends Component {
         super(props)
 
         this.ds = new ListView.DataSource({
-            rowHasChanged: (preview1, preview2) =>
-            preview1.id !== preview2.id
+            rowHasChanged: (url1, url2) => url1 !== url2
         });
         this.state = {
-            dataSource: this.ds.cloneWithRows(this.props.previews)
+            dataSource: this.ds.cloneWithRows(this.props.urls)
         }
     }
 
     componentWillReceiveProps(nextProps) {
         this.setState({
-            dataSource: this.ds.cloneWithRows(nextProps.previews)
+            dataSource: this.ds.cloneWithRows(nextProps.urls)
         });
     }
 
@@ -39,7 +38,7 @@ export default class PreviewList extends Component {
                     placeholder="Please enter url"/>
 
                 <TouchableOpacity style={styles.button} onPress={()=>
-                            this.props.onAddPagePreview(this.state.url)}>
+                            this.props.onAddUrlToPreview(this.state.url)}>
                     <Text>Add Preview</Text>
                 </TouchableOpacity>
                 <ListView dataSource={this.state.dataSource}
@@ -53,7 +52,7 @@ export default class PreviewList extends Component {
 
     rowRender(data, sectionId, rowId) {
         return (
-            <PagePreview preview={data}/>
+            <PagePreview url={data} index={rowId} />
         );
     }
 }
