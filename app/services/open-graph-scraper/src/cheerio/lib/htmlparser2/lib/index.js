@@ -25,7 +25,7 @@ module.exports = {
 		return defineProp("ProxyHandler", require("./ProxyHandler.js"));
 	},
 	get DomUtils(){
-		return defineProp("DomUtils", require("domutils"));
+		return defineProp("DomUtils", require("../libhtmlp2/domutils"));
 	},
 	get CollectingHandler(){
 		return defineProp("CollectingHandler", require("./CollectingHandler.js"));

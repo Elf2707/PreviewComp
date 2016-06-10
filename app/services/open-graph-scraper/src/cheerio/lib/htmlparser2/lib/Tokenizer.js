@@ -1,9 +1,9 @@
 module.exports = Tokenizer;
 
-var decodeCodePoint = require("entities/lib/decode_codepoint.js"),
-    entityMap = require("entities/maps/entities.json"),
-    legacyMap = require("entities/maps/legacy.json"),
-    xmlMap    = require("entities/maps/xml.json"),
+var decodeCodePoint = require("../libhtmlp2/entities/lib/decode_codepoint.js"),
+    entityMap = require("../libhtmlp2/entities/maps/entities.json"),
+    legacyMap = require("../libhtmlp2/entities/maps/legacy.json"),
+    xmlMap    = require("../libhtmlp2/entities/maps/xml.json"),
 
     i = 0,
 

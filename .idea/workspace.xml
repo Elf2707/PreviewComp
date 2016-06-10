@@ -2,7 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f6c868b-56f0-49a5-a755-ae0267f86e73" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/previewer.js" afterPath="$PROJECT_DIR$/app/components/previewer.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/lib/helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/lib/legacy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/lib/manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/lib/querying.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/lib/stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/lib/traversal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/test/fixture.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/test/tests/helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/test/tests/legacy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/test/tests/traversal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/domutils/test/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/entities/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/entities/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/entities/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/entities/lib/decode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/entities/lib/decode_codepoint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/entities/lib/encode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/entities/maps/decode.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/entities/maps/entities.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/entities/maps/legacy.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/entities/maps/xml.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/entities/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/entities/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/entities/test/mocha.opts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/node_modules/entities/test/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/01-events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/02-stream.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/03-feed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Documents/Atom_Example.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Documents/Attributes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Documents/Basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Documents/RDF_Example.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Documents/RSS_Example.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/01-simple.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/02-template.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/03-lowercase_tags.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/04-cdata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/05-cdata-special.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/06-leading-lt.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/07-self-closing.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/08-implicit-close-tags.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/09-attributes.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/10-crazy-attrib.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/11-script_in_script.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/12-long-comment-end.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/13-long-cdata-end.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/14-implicit-open-tags.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/15-lt-whitespace.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/16-double_attribs.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/17-numeric_entities.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/18-legacy_entities.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/19-named_entities.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/20-xml_entities.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/21-entity_in_attribute.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/22-double_brackets.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/23-legacy_entity_fail.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/24-special_special.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/25-empty_tag_name.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/26-not-quite-closed.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/27-entities_in_attributes.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/28-cdata_in_html.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/29-comment_edge-cases.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/30-cdata_edge-cases.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Events/31-comment_false-ending.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Feeds/01-rss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Feeds/02-atom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Feeds/03-rdf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Stream/01-basic.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Stream/02-RSS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Stream/03-Atom.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Stream/04-RDF.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Stream/05-Attributes.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/test-helper.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/app.js" afterPath="$PROJECT_DIR$/app/containers/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/previewListWraper.js" afterPath="$PROJECT_DIR$/app/containers/previewListWraper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/lib/Stream.js" afterPath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/lib/Stream.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/lib/Tokenizer.js" afterPath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/lib/Tokenizer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/lib/index.js" afterPath="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.android.js" afterPath="$PROJECT_DIR$/index.android.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="PreviewComp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,67 +113,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="previewer.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/components/previewer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6059259">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="previewList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/previewList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="previewReducer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/reducers/previewReducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="previewListWraper.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="previewListWraper.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/containers/previewListWraper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="previewActions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/actions/previewActions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.android.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.android.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6169355">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/app/containers/previewWraper.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -103,7 +137,27 @@
         <entry file="file://$PROJECT_DIR$/app/containers/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.916667">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.android.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.android.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -128,7 +182,6 @@
         <option value="$PROJECT_DIR$/app/containers/launch.js" />
         <option value="$PROJECT_DIR$/app/components/setLink.js" />
         <option value="$PROJECT_DIR$/node_modules/react-native-console-panel/index.js" />
-        <option value="$PROJECT_DIR$/index.android.js" />
         <option value="$PROJECT_DIR$/app/reducers/fetcher.js" />
         <option value="$PROJECT_DIR$/app/containers/fetcherApp.js" />
         <option value="$PROJECT_DIR$/app/services/ogp-scraper/opg-srcaper.js" />
@@ -140,7 +193,6 @@
         <option value="$PROJECT_DIR$/app/services/ogp-scraper/src/opg-scraper.js" />
         <option value="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/cheerio.js" />
         <option value="$PROJECT_DIR$/node_modules/htmlparser2/lib/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/node_modules/htmlparser2/lib/Parser.js" />
         <option value="$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/parse.js" />
         <option value="$PROJECT_DIR$/index.ios.js" />
@@ -149,14 +201,16 @@
         <option value="$PROJECT_DIR$/app/reducers/index.js" />
         <option value="$PROJECT_DIR$/app/constants/actionsType.js" />
         <option value="$PROJECT_DIR$/app/actions/previewActions.js" />
-        <option value="$PROJECT_DIR$/app/containers/app.js" />
         <option value="$PROJECT_DIR$/app/services/open-graph-scraper/package.json" />
         <option value="$PROJECT_DIR$/app/services/open-graph-scraper/app.js" />
-        <option value="$PROJECT_DIR$/app/containers/previewListWraper.js" />
         <option value="$PROJECT_DIR$/app/reducers/previewReducer.js" />
-        <option value="$PROJECT_DIR$/app/containers/previewWraper.js" />
         <option value="$PROJECT_DIR$/app/components/previewList.js" />
         <option value="$PROJECT_DIR$/app/components/previewer.js" />
+        <option value="$PROJECT_DIR$/app/containers/previewWraper.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/index.android.js" />
+        <option value="$PROJECT_DIR$/app/containers/app.js" />
+        <option value="$PROJECT_DIR$/app/containers/previewListWraper.js" />
       </list>
     </option>
   </component>
@@ -199,7 +253,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,55 +281,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PreviewComp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PreviewComp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="open-graph-scraper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PreviewComp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PreviewComp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="open-graph-scraper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,6 +377,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -461,25 +467,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1168" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27533266" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20389344" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -498,11 +504,55 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/containers/previewListWraper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/actions/previewActions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1465549284707" expanded="true" signature="221:223" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.android.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/previewWraper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/actions/previewActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1465549284707" expanded="true" signature="221:223" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -558,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-native-router-flux/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Components/WebView/WebView.android.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.086957">
@@ -583,20 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20289855">
           <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/request/lib/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/request/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26086956">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -621,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/EventEmitter/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.0">
@@ -639,20 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Feeds/03-rdf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/open-graph-scraper/src/cheerio/lib/htmlparser2/test/Feeds/01-rss.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -775,14 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.android.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/react-native/react-native.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.347826">
@@ -805,14 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/containers/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/services/open-graph-scraper/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.0459943">
@@ -820,36 +812,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/containers/previewWraper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/actions/previewActions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/previewList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <marker date="1465549284707" expanded="true" signature="221:223" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/containers/previewListWraper.js">
+    <entry file="file://$PROJECT_DIR$/app/components/previewer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.3261745">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -858,19 +834,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/reducers/previewReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.47114095">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/previewer.js">
+    <entry file="file://$PROJECT_DIR$/app/components/previewList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6059259">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.45698926">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.916667">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.android.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/previewWraper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/previewListWraper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6169355">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

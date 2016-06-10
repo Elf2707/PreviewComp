@@ -2,7 +2,7 @@
  * Created by Elf on 06.06.2016.
  */
 import React, {Component} from 'react';
-import {ToastAndroid} from 'react-native';
+import {ToastAndroid, Text} from 'react-native';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
