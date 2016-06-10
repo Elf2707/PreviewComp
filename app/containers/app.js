@@ -5,7 +5,7 @@
 import React, {Component, Navigator} from 'react';
 import {createStore, applyMiddleware, combineReducers} from 'redux';
 import {Provider, connect} from 'react-redux';
-import {Router, Route, Schema, Animations} from 'react-native-redux-router';
+import {Router, Scene} from 'react-native-router-flux';
 import thunk from 'redux-thunk';
 
 import * as reducers from '../reducers';
@@ -21,14 +21,12 @@ export default class App extends Component {
         return (
             <Provider store={store}>
                 <Router hideNavBar={true}>
-                    <Schema
-                        name="default"
-                        sceneConfig={Animations.FlatFloatFromBottom} />
-                    <Route
-                        name="launch"
-                        component={PreviewListWraper}
-                        initial={true}
-                        title="Page previewer"/>
+                    <Scene key="root">
+                        <Scene key="launch"
+                               component={PreviewListWraper}
+                               initial={true}
+                               title="Page previewer"/>
+                    </Scene>
                 </Router>
             </Provider>
         )
